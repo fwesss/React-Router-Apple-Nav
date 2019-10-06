@@ -1,9 +1,9 @@
 .DS_Store
 /.idea/
-.eslintrc.json
-.stylelintrc
+apple-nav/.eslintrc.json
+apple-nav/.stylelintrc
 package-lock.json
 yarn.lock
-package.json
+apple-nav/package.json
 node_modules/
 build/

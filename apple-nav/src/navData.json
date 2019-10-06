@@ -1,0 +1,214 @@
+{
+  "mac": [
+    {
+      "name": "MacBook Air",
+      "new": true
+    },
+    {
+      "name": "MacBook Pro",
+      "new": true
+    },
+    {
+      "name": "iMac",
+      "new": false
+    },
+    {
+      "name": "iMac Pro",
+      "new": false
+    },
+    {
+      "name": "Mac Pro",
+      "new": true
+    },
+    {
+      "name": "Mac mini",
+      "new": false
+    },
+    {
+      "name": "Compare",
+        "new": false
+    },
+    {
+      "name": "Pro Display XDR",
+      "new": true
+    },
+    {
+      "name": "Accessories",
+      "new": false
+    },
+    {
+      "name": "Catalina",
+      "new": false
+    }
+  ],
+  "ipad": [
+    {
+      "name": "iPad Pro",
+      "new": false
+    },
+    {
+      "name": "iPad Air",
+      "new": false
+    },
+    {
+      "name": "iPad",
+      "new": true
+    },
+    {
+      "name": "iPad mini",
+      "new": false
+    },
+    {
+      "name": "Compare",
+      "new": false
+    },
+    {
+      "name": "Apple Pencil",
+      "new": false
+    },
+    {
+      "name": "Smart Keyboard",
+      "new": false
+    },
+    {
+      "name": "Accessories",
+      "new": false
+    },
+    {
+      "name": "iPadOS",
+      "new": false
+    }
+  ],
+  "iphone": [
+    {
+      "name": "iPhone 11 Pro",
+      "new": true
+    },
+    {
+      "name": "iPhone 11",
+      "new": true
+    },
+    {
+      "name": "iPhone XR",
+      "new": false
+    },
+    {
+      "name": "iPhone 8",
+      "new": false
+    },
+    {
+      "name": "Compare",
+      "new": false
+    },
+    {
+      "name": "Apple Card",
+      "new": false
+    },
+    {
+      "name": "AirPods",
+      "new": false
+    },
+    {
+      "name": "Accessories",
+      "new": false
+    },
+    {
+      "name": "iOS 13",
+      "new": false
+    }
+  ],
+  "watch": [
+    {
+      "name": "Apple Watch Series 5",
+      "new": true
+    },
+    {
+      "name": "Apple Watch Nike",
+      "new": true
+    },
+    {
+      "name": "Apple Watch Hermès",
+      "new": true
+    },
+    {
+      "name": "Apple Watch Edition",
+      "new": true
+    },
+    {
+      "name": "Apple Watch Series 3",
+      "new": false
+    },
+    {
+      "name": "Compare",
+      "new": false
+    },
+    {
+      "name": "Bands",
+      "new": false
+    },
+    {
+      "name": "AirPods",
+      "new": false
+    },
+    {
+      "name": "Accessories",
+      "new": false
+    },
+    {
+      "name": "watchOS",
+      "new": false
+    }
+  ],
+  "tv": [
+    {
+      "name": "Apple TV app",
+      "new": true
+    },
+    {
+      "name": "Apple TV+",
+      "new": true
+    },
+    {
+      "name": "Apple TV 4K",
+      "new": false
+    },
+    {
+      "name": "Apple TV HD",
+      "new": false
+    },
+    {
+      "name": "AirPlay",
+      "new": false
+    },
+    {
+      "name": "Accessories",
+      "new": false
+    }
+  ],
+  "music": [
+    {
+      "name": "Apple Music",
+      "new": false
+    },
+    {
+      "name": "HomePod",
+      "new": false
+    },
+    {
+      "name": "AirPods",
+      "new": false
+    },
+    {
+      "name": "iPod touch",
+      "new": true
+    },
+    {
+      "name": "Music Accessories",
+      "new": false
+    },
+    {
+      "name": "Gift Cards",
+      "new": false
+    }
+  ]
+}
