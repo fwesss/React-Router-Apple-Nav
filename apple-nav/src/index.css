@@ -59,9 +59,13 @@ li {
   padding: 0;
 }
 
-.active {
-  opacity: 0.65;
+figure {
+  margin: 0;
+  padding: 0;
+  margin-inline-end: 40px;
+  margin-inline-start: 40px;
 }
 
-#root {
+.active {
+  opacity: 0.65;
 }

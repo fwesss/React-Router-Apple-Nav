@@ -29,11 +29,26 @@
   margin: 0 -0.11765em;
   padding: 0 20px;
   vertical-align: top;
-  animation: chapternav-slidein 350ms backwards;
+  animation: SubNavItem-slidein 350ms backwards;
 
   &:first-child {
     margin-left: 0;
     padding-left: 4px;
+  }
+}
+
+@keyframes SubNavItem-slidein {
+  0% {
+    opacity: 0;
+  }
+
+  1% {
+    transform: translateX(160px);
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
   }
 }
 

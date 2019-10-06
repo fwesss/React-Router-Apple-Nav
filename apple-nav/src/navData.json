@@ -1,212 +1,262 @@
 {
   "mac": [
     {
+      "id": 0,
       "name": "MacBook Air",
       "new": true
     },
     {
+      "id": 1,
       "name": "MacBook Pro",
       "new": true
     },
     {
+      "id": 2,
       "name": "iMac",
       "new": false
     },
     {
+      "id": 3,
       "name": "iMac Pro",
       "new": false
     },
     {
+      "id": 4,
       "name": "Mac Pro",
       "new": true
     },
     {
+      "id": 5,
       "name": "Mac mini",
       "new": false
     },
     {
+      "id": 6,
       "name": "Compare",
         "new": false
     },
     {
+      "id": 7,
       "name": "Pro Display XDR",
       "new": true
     },
     {
+      "id": 8,
       "name": "Accessories",
       "new": false
     },
     {
+      "id": 9,
       "name": "Catalina",
       "new": false
     }
   ],
   "ipad": [
     {
+      "id": 10,
       "name": "iPad Pro",
       "new": false
     },
     {
+      "id": 11,
       "name": "iPad Air",
       "new": false
     },
     {
+      "id": 12,
       "name": "iPad",
       "new": true
     },
     {
+      "id": 13,
       "name": "iPad mini",
       "new": false
     },
     {
+      "id": 14,
       "name": "Compare",
       "new": false
     },
     {
+      "id": 15,
       "name": "Apple Pencil",
       "new": false
     },
     {
+      "id": 16,
       "name": "Smart Keyboard",
       "new": false
     },
     {
+      "id": 17,
       "name": "Accessories",
       "new": false
     },
     {
+      "id": 18,
       "name": "iPadOS",
       "new": false
     }
   ],
   "iphone": [
     {
+      "id": 19,
       "name": "iPhone 11 Pro",
       "new": true
     },
     {
+      "id": 20,
       "name": "iPhone 11",
       "new": true
     },
     {
+      "id": 21,
       "name": "iPhone XR",
       "new": false
     },
     {
+      "id": 22,
       "name": "iPhone 8",
       "new": false
     },
     {
+      "id": 23,
       "name": "Compare",
       "new": false
     },
     {
+      "id": 24,
       "name": "Apple Card",
       "new": false
     },
     {
+      "id": 25,
       "name": "AirPods",
       "new": false
     },
     {
+      "id": 26,
       "name": "Accessories",
       "new": false
     },
     {
+      "id": 27,
       "name": "iOS 13",
       "new": false
     }
   ],
   "watch": [
     {
+      "id": 28,
       "name": "Apple Watch Series 5",
       "new": true
     },
     {
+      "id": 29,
       "name": "Apple Watch Nike",
       "new": true
     },
     {
+      "id": 30,
       "name": "Apple Watch Hermès",
       "new": true
     },
     {
+      "id": 31,
       "name": "Apple Watch Edition",
       "new": true
     },
     {
+      "id": 32,
       "name": "Apple Watch Series 3",
       "new": false
     },
     {
+      "id": 33,
       "name": "Compare",
       "new": false
     },
     {
+      "id": 34,
       "name": "Bands",
       "new": false
     },
     {
+      "id": 35,
       "name": "AirPods",
       "new": false
     },
     {
+      "id": 36,
       "name": "Accessories",
       "new": false
     },
     {
+      "id": 37,
       "name": "watchOS",
       "new": false
     }
   ],
   "tv": [
     {
+      "id": 38,
       "name": "Apple TV app",
       "new": true
     },
     {
+      "id": 39,
       "name": "Apple TV+",
       "new": true
     },
     {
+      "id": 40,
       "name": "Apple TV 4K",
       "new": false
     },
     {
+      "id": 41,
       "name": "Apple TV HD",
       "new": false
     },
     {
+      "id": 42,
       "name": "AirPlay",
       "new": false
     },
     {
+      "id": 43,
       "name": "Accessories",
       "new": false
     }
   ],
   "music": [
     {
+      "id": 44,
       "name": "Apple Music",
       "new": false
     },
     {
+      "id": 45,
       "name": "HomePod",
       "new": false
     },
     {
+      "id": 46,
       "name": "AirPods",
       "new": false
     },
     {
+      "id": 47,
       "name": "iPod touch",
       "new": true
     },
     {
+      "id": 48,
       "name": "Music Accessories",
       "new": false
     },
     {
+      "id": 49,
       "name": "Gift Cards",
       "new": false
     }
