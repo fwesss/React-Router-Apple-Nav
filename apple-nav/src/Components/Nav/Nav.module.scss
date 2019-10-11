@@ -1,0 +1,206 @@
+.Nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  box-sizing: content-box;
+  width: 100%;
+  min-width: 1024px;
+  height: 48px;
+  max-height: 44px;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-size: 17px;
+  direction: ltr;
+  letter-spacing: normal;
+  text-align: left;
+  background: #000c;
+  backdrop-filter: saturate(180%) blur(20px);
+  user-select: none;
+  pointer-events: auto;
+  font-synthesis: none;
+}
+
+.NavContent {
+  position: relative;
+  z-index: 2;
+  box-sizing: content-box;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 22px;
+  font-weight: inherit;
+  font-size: 1em;
+  font-family: inherit;
+  line-height: inherit;
+  letter-spacing: normal;
+  text-align: inherit;
+  pointer-events: auto;
+}
+
+.NavList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: 44px;
+  margin: 0 -10px;
+  list-style: none;
+  cursor: default;
+  user-select: none;
+}
+
+.NavItem {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 44px;
+  vertical-align: top;
+}
+
+@mixin NavLink {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  height: 44px;
+  padding: 0 10px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 3.14286;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  text-decoration: none;
+  background: no-repeat;
+  outline-offset: -7px;
+  opacity: 1;
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+  &:hover {
+    opacity: 0.65;
+  }
+}
+
+.NavLinkApple {
+  @include NavLink;
+  width: 16px;
+  background-image: url(../../icons/apple.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  background-size: 16px 44px;
+}
+
+.NavLinkText {
+  position: absolute;
+  top: 50%;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip-path: inset(0px 0px 99.9% 99.9%);
+}
+
+.NavLinkMac {
+  @include NavLink;
+  width: 1.85714em;
+  max-width: 44.2px;
+  background-image: url(../../icons/mac.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.NavLinkiPad {
+  @include NavLink;
+  width: 1.92857em;
+  max-width: 45.9px;
+  background-image: url(../../icons/ipad.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.NavLinkiPhone {
+  @include NavLink;
+  width: 3.14286em;
+  max-width: 74.8px;
+  background-image: url(../../icons/iphone.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.NavLinkWatch {
+  @include NavLink;
+  width: 2.85714em;
+  max-width: 68px;
+  background-image: url(../../icons/watch.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.NavLinkTV {
+  @include NavLink;
+  width: 1.28571em;
+  max-width: 30.6px;
+  background-image: url(../../icons/tv.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.NavLinkMusic {
+  @include NavLink;
+  width: 2.64286em;
+  max-width: 62.9px;
+  background-image: url(../../icons/music.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.NavLinkSupport {
+  @include NavLink;
+  width: 3.71429em;
+  max-width: 88.4px;
+  background-image: url(../../icons/support.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-origin: content-box;
+}
+
+.NavLinkSearch {
+  @include NavLink;
+  width: 16px;
+  background-image: url(../../icons/search.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 16px 44px;
+}
+
+.NavLinkShop {
+  @include NavLink;
+  width: 14px;
+  background-image: url(../../icons/bag.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 14px 44px;
+}
+
+.Placeholder {
+  height: 44px;
+}
